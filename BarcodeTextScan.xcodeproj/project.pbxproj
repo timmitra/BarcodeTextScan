@@ -12,6 +12,7 @@
 		2A105E8B2BA25B41006B55BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A105E8A2BA25B41006B55BB /* Assets.xcassets */; };
 		2A105E8E2BA25B41006B55BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A105E8D2BA25B41006B55BB /* Preview Assets.xcassets */; };
 		2A105E952BA25BA6006B55BB /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A105E942BA25BA6006B55BB /* AppViewModel.swift */; };
+		2A105E972BA2911B006B55BB /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A105E962BA2911B006B55BB /* DataScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2A105E8A2BA25B41006B55BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A105E8D2BA25B41006B55BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A105E942BA25BA6006B55BB /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		2A105E962BA2911B006B55BB /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				2A105E862BA25B3F006B55BB /* BarcodeTextScanApp.swift */,
 				2A105E882BA25B3F006B55BB /* ContentView.swift */,
+				2A105E962BA2911B006B55BB /* DataScannerView.swift */,
 				2A105E942BA25BA6006B55BB /* AppViewModel.swift */,
 				2A105E8A2BA25B41006B55BB /* Assets.xcassets */,
 				2A105E8C2BA25B41006B55BB /* Preview Content */,
@@ -143,6 +146,7 @@
 				2A105E892BA25B3F006B55BB /* ContentView.swift in Sources */,
 				2A105E872BA25B3F006B55BB /* BarcodeTextScanApp.swift in Sources */,
 				2A105E952BA25BA6006B55BB /* AppViewModel.swift in Sources */,
+				2A105E972BA2911B006B55BB /* DataScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
