@@ -35,6 +35,10 @@ struct DataScannerView: UIViewControllerRepresentable {
     Coordinator(recognizedItems: $recognizedItems)
   }
   
+  static func dismantleUIViewController(_ uiViewController: DataScannerViewController, coordinator: Coordinator) {
+    uiViewController.stopScanning() // cleaning up
+  }
+  
   class Coordinator: NSObject, DataScannerViewControllerDelegate {
     
     @Binding var recognizedItems: [RecognizedItem]
