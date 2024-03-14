@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+  
+  @EnvironmentObject var vm: AppViewModel
+  
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+      switch vm.dataScannerAccessStatus {
+      case .notDetermined:
+        Text("Requesting camera access.")
+      case .cameraAccessNotGranted:
+        Text("Please provide camera access.")
+      case .cameraNotAvailable:
+        Text("Your device doesn't have a camera we can use.")
+      case .scannerAvailable:
+        Text("Scanner available")
+      case .scannerNotAvailable:
+        Text("Your device doesn't support this scanner.")
+      }
     }
 }
 
